@@ -18,8 +18,7 @@
 		crossorigin="anonymous"></script>
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 		<div class="container-fluid">
-			<span class="navbar-brand mb-0 h1">Atividade 1 - Teste de
-				lógica de programação</span>
+			<span class="navbar-brand mb-0 h1">Teste de lógica de programação</span>
 		</div>
 	</nav>
 	<div class="container">
@@ -43,7 +42,7 @@
 				<thead>
 					<tr>
 						<th scope="col">#</th>
-						<th scope="col">Número de cédulas</th>
+						<th scope="col">Nº de cédulas</th>
 					</tr>
 				</thead>
 				<%
@@ -83,23 +82,23 @@
 				%>
 				<tbody>
 					<tr>
-						<th scope="row">Cédulas de 100</th>
+						<th scope="row">Cédulas de R$100,00</th>
 						<td><%=c100%></td>
 					</tr>
 					<tr>
-						<th scope="row">Cédulas de 50</th>
+						<th scope="row">Cédulas de R$50,00</th>
 						<td><%=c50%></td>
 					</tr>
 					<tr>
-						<th scope="row">Cédulas de 20</th>
+						<th scope="row">Cédulas de R$20,00</th>
 						<td><%=c20%></td>
 					</tr>
 					<tr>
-						<th scope="row">Cédulas de 10</th>
+						<th scope="row">Cédulas de R$10,00</th>
 						<td><%=c10%></td>
 					</tr>
 					<tr>
-						<th scope="row">Cédulas de 5</th>
+						<th scope="row">Cédulas de R$5,00</th>
 						<td><%=c5%></td>
 					</tr>
 					<%
